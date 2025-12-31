@@ -25,12 +25,12 @@ const info = [
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "youremail@gami.com",
+    description: "abdurrahman2009.dev@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
     title: "Address",
-    description: "code corner, Tach Town 12345",
+    description: "Barishal, Bangladesh",
   },
 ];
 

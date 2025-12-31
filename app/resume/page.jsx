@@ -6,9 +6,17 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaGitAlt,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import {
+  SiTailwindcss,
+  SiNextdotjs,
+  SiFirebase,
+  SiRedux,
+  SiExpress,
+  SiMongodb,
+} from "react-icons/si";
 
 //about data
 const about = {
@@ -16,53 +24,51 @@ const about = {
   description:
     "I am a passionate web developer with experience in building dynamic and responsive websites. I love working with modern technologies and continuously improving my skills.",
   info: [
-    { fieldName: "Name", fieldValue: "Luke Coleman" },
-    { fieldName: "Phone", fieldValue: "+123 456 7890" },
-    { fieldName: "Experience", fieldValue: "12+ Years" },
-    { fieldName: "Skype", fieldValue: "luke.01" },
-    { fieldName: "Nationality", fieldValue: "American" },
-    { fieldName: "Email", fieldValue: "luke.01@example.com" },
+    { fieldName: "Name", fieldValue: "Abdur Rahman" },
+    { fieldName: "Experience", fieldValue: "2+ Years" },
+    { fieldName: "Nationality", fieldValue: "Bangladeshi" },
+    { fieldName: "Email", fieldValue: "abdurrahman2009.dev@gmail.com" },
     { fieldName: "Freelance", fieldValue: "Available" },
     { fieldName: "Language", fieldValue: "English, Bangla" },
   ],
 };
 
-//experience data
+// experience data (Project-Based)
 const experience = {
   icon: "/assets/resume/badge.svg",
-  title: "My experience",
+  title: "My Work Experience",
   description:
-    "Over the years, I have worked on a variety of projects that have honed my skills and expanded my knowledge in web development.",
+    "Over the years, I have worked on multiple MERN stack projects, honing my skills while building scalable and maintainable full-stack web applications.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Senior Web Developer",
-      duration: "2018 - Present",
+      company: "Forever",
+      position: "MERN Stack Project",
+      duration: "2025",
     },
     {
-      company: "Web Creators LLC",
-      position: "Full Stack Developer",
-      duration: "2016 - 2018",
+      company: "Edemy",
+      position: "Full-Stack Project",
+      duration: "2024",
     },
     {
-      company: "Design Studio",
-      position: "Frontend Developer",
-      duration: "2012 - 2016",
+      company: "Music Academy App",
+      position: "Frontend Project",
+      duration: "2024",
     },
     {
-      company: "Creative Agency",
-      position: "Junior Developer",
-      duration: "2010 - 2012",
+      company: "Prescripto",
+      position: "MERN Stack Project",
+      duration: "2025",
     },
     {
-      company: "Startup Hub",
-      position: "Intern Developer",
-      duration: "2009 - 2010",
+      company: "Share A Bite",
+      position: "Full-Stack Project",
+      duration: "2025",
     },
     {
-      company: "IT Solutions",
-      position: "Trainee Developer",
-      duration: "2007 - 2009",
+      company: "Online Ticket Booking Platform",
+      position: "MERN Stack Project",
+      duration: "2025",
     },
   ],
 };
@@ -72,78 +78,58 @@ const education = {
   icon: "/assets/resume/cap.svg",
   title: "My education",
   description:
-    "I have pursued formal education in computer science and web development, which has provided me with a strong foundation in the field.",
+    "Over the years, I have worked on multiple MERN stack projects, honing my skills while building scalable and maintainable full-stack web applications.",
   items: [
     {
-      institution: "Online Courses Platform",
+      institution: "Programming Hero",
       degree: "Full Stack Certification",
-      duration: "2024",
+      duration: "2025",
     },
     {
-      institution: "Codecademy",
+      institution: "eShikhon.com",
       degree: "Frontend Certification",
-      duration: "2022",
-    },
-    {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2010 - 2014",
-    },
-    {
-      institution: "Tech Institute",
-      degree: "Certificate in Web Design",
-      duration: "2008 - 2010",
-    },
-    {
-      institution: "Design Academy",
-      degree: "Graphic Design",
-      duration: "2008",
-    },
-    {
-      institution: "Community College",
-      degree: "Associate Degree",
-      duration: "2006 - 2008",
+      duration: "2024",
     },
   ],
 };
 
-//skills data
+// skills data
 const skills = {
-  title: "My skills",
+  title: "My Skills",
   description:
-    "I possess a diverse set of skills that enable me to create efficient and effective web solutions.",
+    "I specialize in modern MERN stack development, building scalable, high-performance, and user-focused web applications using industry-standard tools and technologies.",
   skillsList: [
     {
-      icon: <FaHtml5 />,
-      name: "HTML",
-    },
-    {
-      icon: <FaCss3 />,
-      name: "CSS",
-    },
-    {
-      icon: <FaJs />,
-      name: "JavaScript",
-    },
-    {
       icon: <FaReact />,
-      name: "React",
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "Tailwind",
-    },
-    {
-      icon: <FaFigma />,
-      name: "Figma",
+      name: "React.js",
     },
     {
       icon: <SiNextdotjs />,
       name: "Next.js",
     },
     {
+      icon: <SiTailwindcss />,
+      name: "Tailwind CSS",
+    },
+    {
       icon: <FaNodeJs />,
       name: "Node.js",
+    },
+    {
+      icon: <SiExpress />,
+      name: "Express.js",
+    },
+    {
+      icon: <SiMongodb />,
+      name: "MongoDB",
+    },
+    {
+      icon: <SiRedux />,
+      name: "Redux",
+    },
+    {
+      icon: <SiFirebase />,
+      name: "Firebase",
     },
   ],
 };

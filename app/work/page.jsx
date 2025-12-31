@@ -27,7 +27,7 @@ const projects = [
     description:
       "This project is about frontend development using React and Next.js frameworks. It showcases modern UI/UX designs and responsive layouts to enhance user experience across various devices.",
     stack: [{ name: "HTML" }, { name: "CSS" }, { name: "JavaScript" }],
-    image: "/assets/work/thumb1.png",
+    image: "/assets/work/thumb001.png",
     live: "",
     github: "",
   },
@@ -38,7 +38,7 @@ const projects = [
     description:
       "This project is about frontend development using React and Next.js frameworks. It showcases modern UI/UX designs and responsive layouts to enhance user experience across various devices.",
     stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }, { name: "Node.js" }],
-    image: "/assets/work/thumb2.png",
+    image: "/assets/work/thumb02.png",
     live: "",
     github: "",
   },
@@ -49,7 +49,7 @@ const projects = [
     description:
       "This project is about frontend development using Next.js frameworks. It showcases modern UI/UX designs and responsive layouts to enhance user experience across various devices.",
     stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }],
-    image: "/assets/work/thumb3.png",
+    image: "/assets/work/thumb03.png",
     live: "",
     github: "",
   },

@@ -9,28 +9,28 @@ const services = [
     num: "01",
     title: "Web Development",
     description:
-      "Building responsive and dynamic websites tailored to your needs.",
+      "Building modern, responsive, and scalable MERN stack web applications tailored to your needs.",
     href: "",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Frontend Development",
     description:
-      "Creating intuitive and engaging user interfaces for better user experiences.",
+      "Creating clean, user-friendly interfaces with React and Next.js for great user experiences.",
     href: "",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Backend Development",
     description:
-      "Crafting unique and memorable logos that represent your brand identity.",
+      "Developing secure, high-performance APIs and server-side logic using Node.js and Express.",
     href: "",
   },
   {
     num: "04",
     title: "SEO Optimization",
     description:
-      "Improving website visibility and ranking on search engines through effective SEO strategies.",
+      "Optimizing web applications for speed, accessibility, and search engine visibility.",
     href: "",
   },
 ];
