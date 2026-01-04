@@ -22,36 +22,25 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
+    category: "fullstack",
     title: "Project 1",
     description:
-      "This project is about frontend development using React and Next.js frameworks. It showcases modern UI/UX designs and responsive layouts to enhance user experience across various devices.",
-    stack: [{ name: "HTML" }, { name: "CSS" }, { name: "JavaScript" }],
-    image: "/assets/work/thumb001.png",
-    live: "",
-    github: "",
+      "Full-stack e-commerce app built with React.js, Node.js, Express, and MongoDB. Features include product filtering, cart/checkout flow, and JWT authentication. Responsive UI with Tailwind CSS; deployed via Vercel",
+    stack: [{ name: "React.js, " }, { name: "Node.js, " }, { name: "MongoDB" }],
+    image: "/assets/work/demo6.png",
+    live: "https://webdev-demo-forever.vercel.app",
+    github: "https://github.com/abdurrahman-webdev/forever",
   },
   {
     num: "02",
-    category: "fullstack",
+    category: "frontend",
     title: "Project 2",
     description:
-      "This project is about frontend development using React and Next.js frameworks. It showcases modern UI/UX designs and responsive layouts to enhance user experience across various devices.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }, { name: "Node.js" }],
-    image: "/assets/work/thumb02.png",
-    live: "",
-    github: "",
-  },
-  {
-    num: "03",
-    category: "frontend",
-    title: "Project 3",
-    description:
-      "This project is about frontend development using Next.js frameworks. It showcases modern UI/UX designs and responsive layouts to enhance user experience across various devices.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind CSS" }],
-    image: "/assets/work/thumb03.png",
-    live: "",
-    github: "",
+      "Frontend e-learning platform using React.js, React Router, and Tailwind CSS. Includes responsive course listings and modular UI components. Structured for future backend integration.",
+    stack: [{ name: "React, " }, { name: "Tailwind CSS" }],
+    image: "/assets/work/demo7.png",
+    live: "https://webdev-demo-edemy.vercel.app",
+    github: "https://github.com/abdurrahman-webdev/Edemy",
   },
 ];
 
